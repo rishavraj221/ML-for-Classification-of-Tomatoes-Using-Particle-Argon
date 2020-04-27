@@ -20,4 +20,28 @@ Hardware
 
 We have used Particle Argon for computations and Adafruit TCS34725 sensor to capture the colors.
 
+Training Data
+
+The data for training was collected from the sensor using a simple code.
+
+This code prints data in serial monitor. The Red, Green and Blue values are copied to an excel sheet and is saved in CSV format.
+
+The data is next uploaded in a new google colaboratory file which runs TensorFlow.
+
+Google Colaboratory
+
+TensorFlow is installed by another simple code
+
+The data is uploaded and visualized in pixels
+
+The model is built and Trained
+
+Then we run the prediction
+
+The data is then converted into TensorFlow Lite model and is embedded into.h file using python code
+
+Running ML in Argon
+
+The model.h file is then used with our code to run the prediction. We had successful output and the classification was done right.
+
 Thank you
