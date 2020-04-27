@@ -1,0 +1,4 @@
+!apt-get -qq install xxd
+!pip install pandas numpy matplotlib
+%tensorflow_version 2.x
+!pip install tensorflow
